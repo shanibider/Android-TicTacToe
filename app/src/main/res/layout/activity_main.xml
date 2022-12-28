@@ -17,7 +17,7 @@
         android:src="@drawable/back"
         app:layout_constraintLeft_toLeftOf="@id/btn_0"
         tools:layout_editor_absoluteY="-180dp"
-       />
+        />
 
     <ImageView
         android:id="@+id/playerStatus"
@@ -54,6 +54,9 @@
         />
 
 
+
+
+
     <Button
         android:id="@+id/btn_0"
         android:layout_width="135dp"
@@ -61,12 +64,15 @@
         android:layout_marginLeft="3dp"
         android:layout_marginTop="13dp"
         android:backgroundTint="@android:color/transparent"
-          app:layout_constraintBottom_toBottomOf="@+id/back"
+        app:layout_constraintBottom_toBottomOf="@+id/back"
         app:layout_constraintEnd_toEndOf="@+id/back"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/back"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.181" />
+
+
+
 
     <Button
         android:id="@+id/btn_1"
